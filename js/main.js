@@ -317,19 +317,19 @@ function start() {
     // função que avalia a energia (vida) do jogador, helicóptero cinza
     function energia() {
         if (energiaAtual == 3) {
-            $("#energia").css("background-image", "url(./src/assets/images/energia3.png)");
+            $("#energia").css("background-image", "url(../imgs/energia3.png)");
         }
 
         if (energiaAtual == 2) {
-            $("#energia").css("background-image", "url(./src/assets/images/energia2.png)");
+            $("#energia").css("background-image", "url(../imgs/energia2.png)");
         }
 
         if (energiaAtual == 1) {
-            $("#energia").css("background-image", "url(./src/assets/images/energia1.png)");
+            $("#energia").css("background-image", "url(../imgs/energia1.png)");
         }
 
         if (energiaAtual == 0) {
-            $("#energia").css("background-image", "url(./src/assets/images/energia0.png)");
+            $("#energia").css("background-image", "url(../imgs/energia0.png)");
             gameOver(); // chamando a função game over
         }
     }
